@@ -1,0 +1,915 @@
+IQ-TREE 3.0.1 built Jul  9 2025
+
+Input file name: /content/drive/MyDrive/KCL/Leprosy/results_3/tree/alignment_fixed.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 391852
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 198 sequences with 250153 nucleotide sites
+Number of constant sites: 0 (= 0% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 0 (= 0% of all sites)
+Number of parsimony informative sites: 245113
+Number of distinct site patterns: 8852
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+ASC
+
+Rate parameter R:
+
+  A-C: 1.0141
+  A-G: 3.7876
+  A-T: 0.2359
+  C-G: 0.5636
+  C-T: 3.8119
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2403
+  pi(C) = 0.2573
+  pi(G) = 0.2585
+  pi(T) = 0.2439
+
+Rate matrix Q:
+
+  A   -0.9957    0.2002    0.7513   0.04415
+  C     0.187    -1.012    0.1118    0.7135
+  G    0.6984    0.1113   -0.9969    0.1872
+  T   0.04349    0.7526    0.1984   -0.9945
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -1241316.6914 (s.e. 2554.1183)
+Unconstrained log-likelihood (without tree): -1065630.8325
+Number of free parameters (#branches + #model parameters): 397
+Akaike information criterion (AIC) score: 2483427.3829
+Corrected Akaike information criterion (AICc) score: 2483428.6481
+Bayesian information criterion (BIC) score: 2487568.0246
+
+Total tree length (sum of branch lengths): 0.5006
+Sum of internal branch lengths: 0.4325 (86.4015% of tree length)
+
+WARNING: 66 near-zero internal branches (<0.0000) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon '/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3330052.final.bam' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3330052.final.bam
+|
+|  +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3330053.final.bam
++**| (100)
+|  |                                                                       +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672737.final.bam
+|  |                                                                    +**| (96)
+|  |                                                                    |  +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672752.final.bam
+|  |                                                                 +**| (100)
+|  |                                                                 |  |  +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672739.final.bam
+|  |                                                                 |  +**| (73)
+|  |                                                                 |     +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672758.final.bam
+|  |                                                              +**| (98)
+|  |                                                              |  +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672757.final.bam
+|  |                                                           +--| (100)
+|  |                                                           |  |        +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672738.final.bam
+|  |                                                           |  |     +--| (97)
+|  |                                                           |  |     |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672749.final.bam
+|  |                                                           |  |     |  +--| (100)
+|  |                                                           |  |     |     |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672755.final.bam
+|  |                                                           |  |     |     +--| (100)
+|  |                                                           |  |     |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672756.final.bam
+|  |                                                           |  |  +**| (96)
+|  |                                                           |  |  |  +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672753.final.bam
+|  |                                                           |  +**| (98)
+|  |                                                           |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672754.final.bam
+|  |                                                        +**| (100)
+|  |                                                        |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241739.final.bam
+|  |                                                     +**| (92)
+|  |                                                     |  |                    +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241727.final.bam
+|  |                                                     |  |                 +**| (9)
+|  |                                                     |  |                 |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241763.final.bam
+|  |                                                     |  |              +**| (9)
+|  |                                                     |  |              |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241748.final.bam
+|  |                                                     |  |           +--| (100)
+|  |                                                     |  |           |  |  +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241745.final.bam
+|  |                                                     |  |           |  +--| (100)
+|  |                                                     |  |           |     +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241747.final.bam
+|  |                                                     |  |        +**| (97)
+|  |                                                     |  |        |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241741.final.bam
+|  |                                                     |  |     +**| (97)
+|  |                                                     |  |     |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241730.final.bam
+|  |                                                     |  |     |  |  +--| (100)
+|  |                                                     |  |     |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241803.final.bam
+|  |                                                     |  |     |  +--| (100)
+|  |                                                     |  |     |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241762.final.bam
+|  |                                                     |  |  +--| (100)
+|  |                                                     |  |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241740.final.bam
+|  |                                                     |  |  |  +--| (100)
+|  |                                                     |  |  |     |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241759.final.bam
+|  |                                                     |  |  |     +--| (100)
+|  |                                                     |  |  |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241760.final.bam
+|  |                                                     |  +--| (100)
+|  |                                                     |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847034.final.bam
+|  |                                                  +--| (94)
+|  |                                                  |  |     +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847050.final.bam
+|  |                                                  |  |  +**| (100)
+|  |                                                  |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847052.final.bam
+|  |                                                  |  +--| (100)
+|  |                                                  |     +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847051.final.bam
+|  |                                               +--| (100)
+|  |                                               |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241718.final.bam
+|  |                                            +--| (85)
+|  |                                            |  |                                                                             +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672740.final.bam
+|  |                                            |  |                                                                          +--| (100)
+|  |                                            |  |                                                                          |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672742.final.bam
+|  |                                            |  |                                                                          |  +--| (100)
+|  |                                            |  |                                                                          |     |                    +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672743.final.bam
+|  |                                            |  |                                                                          |     |                 +--| (100)
+|  |                                            |  |                                                                          |     |                 |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672748.final.bam
+|  |                                            |  |                                                                          |     |              +--| (100)
+|  |                                            |  |                                                                          |     |              |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672744.final.bam
+|  |                                            |  |                                                                          |     |           +--| (100)
+|  |                                            |  |                                                                          |     |           |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672747.final.bam
+|  |                                            |  |                                                                          |     |        +--| (100)
+|  |                                            |  |                                                                          |     |        |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672746.final.bam
+|  |                                            |  |                                                                          |     +--------| (100)
+|  |                                            |  |                                                                          |              +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672745.final.bam
+|  |                                            |  |                                                                       +--| (100)
+|  |                                            |  |                                                                       |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672751.final.bam
+|  |                                            |  |                                                                    +--| (100)
+|  |                                            |  |                                                                    |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672750.final.bam
+|  |                                            |  |                             +--------------------------------------| (100)
+|  |                                            |  |                             |                                      +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672741.final.bam
+|  |                                            |  |                          +--| (100)
+|  |                                            |  |                          |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847035.final.bam
+|  |                                            |  |                       +--| (99)
+|  |                                            |  |                       |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847036.final.bam
+|  |                                            |  |                    +--| (91)
+|  |                                            |  |                    |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847064.final.bam
+|  |                                            |  |                    |  +--| (94)
+|  |                                            |  |                    |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847069.final.bam
+|  |                                            |  |                 +--| (65)
+|  |                                            |  |                 |  +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6233936.final.bam
+|  |                                            |  |              +--| (65)
+|  |                                            |  |              |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847056.final.bam
+|  |                                            |  |           +**| (73)
+|  |                                            |  |           |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847038.final.bam
+|  |                                            |  |        +--| (80)
+|  |                                            |  |        |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241713.final.bam
+|  |                                            |  |        |  +--| (100)
+|  |                                            |  |        |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241821.final.bam
+|  |                                            |  |     +**| (64)
+|  |                                            |  |     |  |              +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241710.final.bam
+|  |                                            |  |     |  |           +--| (100)
+|  |                                            |  |     |  |           |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241817.final.bam
+|  |                                            |  |     |  |        +--| (100)
+|  |                                            |  |     |  |        |  |           +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241711.final.bam
+|  |                                            |  |     |  |        |  |        +--| (100)
+|  |                                            |  |     |  |        |  |        |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241823.final.bam
+|  |                                            |  |     |  |        |  |     +--| (100)
+|  |                                            |  |     |  |        |  |     |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241716.final.bam
+|  |                                            |  |     |  |        |  |     |  +--| (100)
+|  |                                            |  |     |  |        |  |     |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241796.final.bam
+|  |                                            |  |     |  |        |  |  +**| (64)
+|  |                                            |  |     |  |        |  |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241766.final.bam
+|  |                                            |  |     |  |        |  |  |  +--| (65)
+|  |                                            |  |     |  |        |  |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847079.final.bam
+|  |                                            |  |     |  |        |  +**| (66)
+|  |                                            |  |     |  |        |     |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241751.final.bam
+|  |                                            |  |     |  |        |     +--| (100)
+|  |                                            |  |     |  |        |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241752.final.bam
+|  |                                            |  |     |  |     +--| (100)
+|  |                                            |  |     |  |     |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241819.final.bam
+|  |                                            |  |     |  |     |  +**| (100)
+|  |                                            |  |     |  |     |     |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241822.final.bam
+|  |                                            |  |     |  |     |     |  +--| (100)
+|  |                                            |  |     |  |     |     |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241824.final.bam
+|  |                                            |  |     |  |     |     +**| (100)
+|  |                                            |  |     |  |     |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241825.final.bam
+|  |                                            |  |     |  |  +--| (24)
+|  |                                            |  |     |  |  |  |              +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241723.final.bam
+|  |                                            |  |     |  |  |  |           +--| (94)
+|  |                                            |  |     |  |  |  |           |  |                                                  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847037.final.bam
+|  |                                            |  |     |  |  |  |           |  |                                               +--| (100)
+|  |                                            |  |     |  |  |  |           |  |                                               |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847068.final.bam
+|  |                                            |  |     |  |  |  |           |  |                                            +--| (96)
+|  |                                            |  |     |  |  |  |           |  |                                            |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847046.final.bam
+|  |                                            |  |     |  |  |  |           |  |                                         +--| (90)
+|  |                                            |  |     |  |  |  |           |  |                                         |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847066.final.bam
+|  |                                            |  |     |  |  |  |           |  |                                      +--| (100)
+|  |                                            |  |     |  |  |  |           |  |                                      |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847058.final.bam
+|  |                                            |  |     |  |  |  |           |  |                                   +--| (100)
+|  |                                            |  |     |  |  |  |           |  |                                   |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847070.final.bam
+|  |                                            |  |     |  |  |  |           |  |                                +--| (100)
+|  |                                            |  |     |  |  |  |           |  |                                |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847055.final.bam
+|  |                                            |  |     |  |  |  |           |  |                             +--| (79)
+|  |                                            |  |     |  |  |  |           |  |                             |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847041.final.bam
+|  |                                            |  |     |  |  |  |           |  |                             |  +--| (88)
+|  |                                            |  |     |  |  |  |           |  |                             |     |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847063.final.bam
+|  |                                            |  |     |  |  |  |           |  |                             |     |  +--| (100)
+|  |                                            |  |     |  |  |  |           |  |                             |     |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847067.final.bam
+|  |                                            |  |     |  |  |  |           |  |                             |     +--| (95)
+|  |                                            |  |     |  |  |  |           |  |                             |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847065.final.bam
+|  |                                            |  |     |  |  |  |           |  |                          +--| (61)
+|  |                                            |  |     |  |  |  |           |  |                          |  |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847039.final.bam
+|  |                                            |  |     |  |  |  |           |  |                          |  |     +--| (100)
+|  |                                            |  |     |  |  |  |           |  |                          |  |     |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847040.final.bam
+|  |                                            |  |     |  |  |  |           |  |                          |  |  +--| (53)
+|  |                                            |  |     |  |  |  |           |  |                          |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847045.final.bam
+|  |                                            |  |     |  |  |  |           |  |                          |  +--| (43)
+|  |                                            |  |     |  |  |  |           |  |                          |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847049.final.bam
+|  |                                            |  |     |  |  |  |           |  |                       +--| (71)
+|  |                                            |  |     |  |  |  |           |  |                       |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847042.final.bam
+|  |                                            |  |     |  |  |  |           |  |                       |  +--| (80)
+|  |                                            |  |     |  |  |  |           |  |                       |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847044.final.bam
+|  |                                            |  |     |  |  |  |           |  |                    +--| (79)
+|  |                                            |  |     |  |  |  |           |  |                    |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847053.final.bam
+|  |                                            |  |     |  |  |  |           |  |                 +--| (86)
+|  |                                            |  |     |  |  |  |           |  |                 |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847047.final.bam
+|  |                                            |  |     |  |  |  |           |  |                 |  +--| (93)
+|  |                                            |  |     |  |  |  |           |  |                 |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847048.final.bam
+|  |                                            |  |     |  |  |  |           |  |              +--| (98)
+|  |                                            |  |     |  |  |  |           |  |              |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847043.final.bam
+|  |                                            |  |     |  |  |  |           |  |              |  +--| (85)
+|  |                                            |  |     |  |  |  |           |  |              |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847054.final.bam
+|  |                                            |  |     |  |  |  |           |  |           +**| (28)
+|  |                                            |  |     |  |  |  |           |  |           |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847715.final.bam
+|  |                                            |  |     |  |  |  |           |  |        +**| (14)
+|  |                                            |  |     |  |  |  |           |  |        |  |  +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847703.final.bam
+|  |                                            |  |     |  |  |  |           |  |        |  +**| (34)
+|  |                                            |  |     |  |  |  |           |  |        |     +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847705.final.bam
+|  |                                            |  |     |  |  |  |           |  |     +**| (31)
+|  |                                            |  |     |  |  |  |           |  |     |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847704.final.bam
+|  |                                            |  |     |  |  |  |           |  |  +**| (89)
+|  |                                            |  |     |  |  |  |           |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847080.final.bam
+|  |                                            |  |     |  |  |  |           |  +--| (98)
+|  |                                            |  |     |  |  |  |           |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847057.final.bam
+|  |                                            |  |     |  |  |  |        +--| (90)
+|  |                                            |  |     |  |  |  |        |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241770.final.bam
+|  |                                            |  |     |  |  |  |        |  |  +--| (100)
+|  |                                            |  |     |  |  |  |        |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241799.final.bam
+|  |                                            |  |     |  |  |  |        |  +--| (100)
+|  |                                            |  |     |  |  |  |        |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241780.final.bam
+|  |                                            |  |     |  |  |  |     +**| (25)
+|  |                                            |  |     |  |  |  |     |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241737.final.bam
+|  |                                            |  |     |  |  |  |  +--| (32)
+|  |                                            |  |     |  |  |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847077.final.bam
+|  |                                            |  |     |  |  |  +--| (25)
+|  |                                            |  |     |  |  |     |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241746.final.bam
+|  |                                            |  |     |  |  |     |  +--| (91)
+|  |                                            |  |     |  |  |     |  |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241753.final.bam
+|  |                                            |  |     |  |  |     |  |  |  +--| (99)
+|  |                                            |  |     |  |  |     |  |  |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241754.final.bam
+|  |                                            |  |     |  |  |     |  |  |  |  +--| (100)
+|  |                                            |  |     |  |  |     |  |  |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241769.final.bam
+|  |                                            |  |     |  |  |     |  |  +--| (100)
+|  |                                            |  |     |  |  |     |  |     |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241772.final.bam
+|  |                                            |  |     |  |  |     |  |     |  +--| (100)
+|  |                                            |  |     |  |  |     |  |     |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241805.final.bam
+|  |                                            |  |     |  |  |     |  |     |  |  +**| (100)
+|  |                                            |  |     |  |  |     |  |     |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847084.final.bam
+|  |                                            |  |     |  |  |     |  |     +**| (100)
+|  |                                            |  |     |  |  |     |  |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847078.final.bam
+|  |                                            |  |     |  |  |     +**| (81)
+|  |                                            |  |     |  |  |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241802.final.bam
+|  |                                            |  |     |  +**| (80)
+|  |                                            |  |     |     |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847061.final.bam
+|  |                                            |  |     |     +--| (97)
+|  |                                            |  |     |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847081.final.bam
+|  |                                            |  |  +**| (58)
+|  |                                            |  |  |  |              +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241707.final.bam
+|  |                                            |  |  |  |           +--| (100)
+|  |                                            |  |  |  |           |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241797.final.bam
+|  |                                            |  |  |  |           |  +**| (99)
+|  |                                            |  |  |  |           |     |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241816.final.bam
+|  |                                            |  |  |  |           |     +**| (100)
+|  |                                            |  |  |  |           |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241820.final.bam
+|  |                                            |  |  |  |        +--| (100)
+|  |                                            |  |  |  |        |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241724.final.bam
+|  |                                            |  |  |  |     +**| (93)
+|  |                                            |  |  |  |     |  |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241709.final.bam
+|  |                                            |  |  |  |     |  |     +**| (45)
+|  |                                            |  |  |  |     |  |     |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241712.final.bam
+|  |                                            |  |  |  |     |  |  +**| (17)
+|  |                                            |  |  |  |     |  |  |  |  +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241721.final.bam
+|  |                                            |  |  |  |     |  |  |  +--| (100)
+|  |                                            |  |  |  |     |  |  |     +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241722.final.bam
+|  |                                            |  |  |  |     |  +**| (100)
+|  |                                            |  |  |  |     |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241714.final.bam
+|  |                                            |  |  |  |  +--| (93)
+|  |                                            |  |  |  |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241801.final.bam
+|  |                                            |  |  |  |  |  +--| (100)
+|  |                                            |  |  |  |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241818.final.bam
+|  |                                            |  |  |  +--| (93)
+|  |                                            |  |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241715.final.bam
+|  |                                            |  +--| (85)
+|  |                                            |     |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241708.final.bam
+|  |                                            |     |  +--| (82)
+|  |                                            |     |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241813.final.bam
+|  |                                            |     +--| (81)
+|  |                                            |        |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847062.final.bam
+|  |                                            |        +--| (100)
+|  |                                            |           +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847082.final.bam
+|  |                                         +--| (100)
+|  |                                         |  |                          +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241755.final.bam
+|  |                                         |  |                       +--| (100)
+|  |                                         |  |                       |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241756.final.bam
+|  |                                         |  |                       |  +--| (98)
+|  |                                         |  |                       |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241768.final.bam
+|  |                                         |  |                    +--| (100)
+|  |                                         |  |                    |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241757.final.bam
+|  |                                         |  |                 +--| (100)
+|  |                                         |  |                 |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241782.final.bam
+|  |                                         |  |                 |  +--| (100)
+|  |                                         |  |                 |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241784.final.bam
+|  |                                         |  |              +--| (25)
+|  |                                         |  |              |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241773.final.bam
+|  |                                         |  |              |  +--| (24)
+|  |                                         |  |              |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241778.final.bam
+|  |                                         |  |           +--| (95)
+|  |                                         |  |           |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241781.final.bam
+|  |                                         |  |        +--| (98)
+|  |                                         |  |        |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241779.final.bam
+|  |                                         |  |     +--| (100)
+|  |                                         |  |     |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241785.final.bam
+|  |                                         |  |  +--| (100)
+|  |                                         |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847083.final.bam
+|  |                                         |  +**| (85)
+|  |                                         |     |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241758.final.bam
+|  |                                         |     |     +--| (100)
+|  |                                         |     |     |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241800.final.bam
+|  |                                         |     |  +--| (100)
+|  |                                         |     |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241771.final.bam
+|  |                                         |     +--| (100)
+|  |                                         |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241767.final.bam
+|  |                                      +--| (100)
+|  |                                      |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847060.final.bam
+|  |                                      |  +--| (100)
+|  |                                      |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847088.final.bam
+|  |                                   +--| (100)
+|  |                                   |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847059.final.bam
+|  |                                   |  +--| (100)
+|  |                                   |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847085.final.bam
+|  |                                +**| (96)
+|  |                                |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241812.final.bam
+|  |                             +--| (100)
+|  |                             |  |           +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241738.final.bam
+|  |                             |  |        +--| (100)
+|  |                             |  |        |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241786.final.bam
+|  |                             |  |     +**| (100)
+|  |                             |  |     |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847087.final.bam
+|  |                             |  |  +--| (100)
+|  |                             |  |  |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241750.final.bam
+|  |                             |  |  |  |  +**| (90)
+|  |                             |  |  |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241794.final.bam
+|  |                             |  |  |  +**| (88)
+|  |                             |  |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241809.final.bam
+|  |                             |  +**| (100)
+|  |                             |     |     +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241749.final.bam
+|  |                             |     |  +--| (100)
+|  |                             |     |  |  +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241761.final.bam
+|  |                             |     +--| (100)
+|  |                             |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241792.final.bam
+|  |                          +**| (93)
+|  |                          |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241725.final.bam
+|  |                          |  |  +--| (98)
+|  |                          |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241807.final.bam
+|  |                          |  +**| (96)
+|  |                          |     |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241728.final.bam
+|  |                          |     |     +--| (100)
+|  |                          |     |     |  +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241729.final.bam
+|  |                          |     |  +--| (97)
+|  |                          |     |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241736.final.bam
+|  |                          |     +--| (97)
+|  |                          |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241788.final.bam
+|  |                       +**| (93)
+|  |                       |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241717.final.bam
+|  |                       |  |  +**| (93)
+|  |                       |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241719.final.bam
+|  |                       |  +--| (98)
+|  |                       |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241720.final.bam
+|  |                    +**| (97)
+|  |                    |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241731.final.bam
+|  |                    |  |  +--| (100)
+|  |                    |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241735.final.bam
+|  |                    |  +--| (97)
+|  |                    |     |              +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241732.final.bam
+|  |                    |     |           +**| (100)
+|  |                    |     |           |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241742.final.bam
+|  |                    |     |        +**| (97)
+|  |                    |     |        |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241733.final.bam
+|  |                    |     |        |  +--| (100)
+|  |                    |     |        |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241734.final.bam
+|  |                    |     |     +--| (97)
+|  |                    |     |     |  +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241744.final.bam
+|  |                    |     |  +--| (97)
+|  |                    |     |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241743.final.bam
+|  |                    |     |  |  +--| (100)
+|  |                    |     |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241798.final.bam
+|  |                    |     +**| (88)
+|  |                    |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241790.final.bam
+|  |                 +**| (95)
+|  |                 |  |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241726.final.bam
+|  |                 |  |     +**| (82)
+|  |                 |  |     |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241764.final.bam
+|  |                 |  |     |  +**| (91)
+|  |                 |  |     |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241777.final.bam
+|  |                 |  |  +**| (84)
+|  |                 |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241795.final.bam
+|  |                 |  +**| (97)
+|  |                 |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241787.final.bam
+|  |              +--| (97)
+|  |              |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241775.final.bam
+|  |              |  |  +--| (100)
+|  |              |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241814.final.bam
+|  |              |  +**| (100)
+|  |              |     +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241811.final.bam
+|  |           +**| (74)
+|  |           |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241783.final.bam
+|  |           |  |  +**| (21)
+|  |           |  |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241789.final.bam
+|  |           |  |  |  +**| (98)
+|  |           |  |  |     |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241791.final.bam
+|  |           |  |  |     +**| (28)
+|  |           |  |  |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241793.final.bam
+|  |           |  +**| (86)
+|  |           |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241815.final.bam
+|  |        +**| (88)
+|  |        |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241774.final.bam
+|  |        |  +**| (90)
+|  |        |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241810.final.bam
+|  |     +**| (97)
+|  |     |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241808.final.bam
+|  |  +--| (97)
+|  |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241776.final.bam
+|  |  |  +**| (100)
+|  |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847086.final.bam
+|  +--| (100)
+|     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241806.final.bam
+|
++**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3330054.final.bam
+
+Tree in newick format:
+
+(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3330052.final.bam:0.0000138367,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3330053.final.bam:0.0000016016,((((((((((((((((((((((((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672737.final.bam:0.0000032309,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672752.final.bam:0.0000032417)96:0.0000008150,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672739.final.bam:0.0000003998,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672758.final.bam:0.0000003998)73:0.0000003998)100:0.0000003998,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672757.final.bam:0.0000003998)98:0.0000017526,(((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672738.final.bam:0.0000023884,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672749.final.bam:0.0000346125,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672755.final.bam:0.0001153550,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672756.final.bam:0.0001050705)100:0.0001090220)100:0.0000452402)97:0.0000085784,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672753.final.bam:0.0000008626)96:0.0000015285,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672754.final.bam:0.0000410566)98:0.0000009581)100:0.0000486642,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241739.final.bam:0.0000425815)100:0.0000032446,(((((((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241727.final.bam:0.0002691964,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241763.final.bam:0.0000106745)9:0.0000003998,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241748.final.bam:0.0000047226)9:0.0000009291,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241745.final.bam:0.0000003998,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241747.final.bam:0.0000032313)100:0.0000047227)100:0.0000093239,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241741.final.bam:0.0000213799)97:0.0000032205,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241730.final.bam:0.0000123004,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241803.final.bam:0.0000380186)100:0.0000093239,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241762.final.bam:0.0000244343)100:0.0000045061)97:0.0000030697,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241740.final.bam:0.0000182398,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241759.final.bam:0.0000123004,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241760.final.bam:0.0000047226)100:0.0000093240)100:0.0000093240)100:0.0000047294,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847034.final.bam:0.0000410601)100:0.0000213802)92:0.0000011813,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847050.final.bam:0.0000015075,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847052.final.bam:0.0000047228)100:0.0000032538,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847051.final.bam:0.0000015233)100:0.0000448394)94:0.0000158539,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241718.final.bam:0.0001139637)100:0.0000145855,((((((((((((((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672740.final.bam:0.0031942461,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672742.final.bam:0.0012265012,(((((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672743.final.bam:0.0025205517,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672748.final.bam:0.0059677277)100:0.0015125388,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672744.final.bam:0.0032207300)100:0.0013601439,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672747.final.bam:0.0024810730)100:0.0029776212,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672746.final.bam:0.0018079837)100:0.0164545759,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672745.final.bam:0.0039523959)100:0.0717217095)100:0.0190775674)100:0.0050489620,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672751.final.bam:0.0057154409)100:0.0076026561,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672750.final.bam:0.0184440512)100:0.0134657367,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672741.final.bam:0.0000011856)100:0.2860490427,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847035.final.bam:0.0035852096)100:0.0024370554,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847036.final.bam:0.0002636691)99:0.0002118756,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847064.final.bam:0.0006988035,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847069.final.bam:0.0000780130)94:0.0000566751)91:0.0000396600,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6233936.final.bam:0.0000036007)65:0.0000119630,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847056.final.bam:0.0000122059)65:0.0000063354,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847038.final.bam:0.0001014832)73:0.0000016919,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241713.final.bam:0.0000106761,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241821.final.bam:0.0000079250)100:0.0000545239)80:0.0000198496,(((((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241710.final.bam:0.0000063396,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241817.final.bam:0.0000138344)100:0.0000091074,((((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241711.final.bam:0.0000213762,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241823.final.bam:0.0000153717)100:0.0000086677,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241716.final.bam:0.0000314292,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241796.final.bam:0.0000095365)100:0.0000063527)100:0.0000101261,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241766.final.bam:0.0000401764,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847079.final.bam:0.0002082619)65:0.0000106738)64:0.0000004127,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241751.final.bam:0.0000387914,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241752.final.bam:0.0000445975)100:0.0000259563)66:0.0000020153)100:0.0000305378,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241819.final.bam:0.0000517005,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241822.final.bam:0.0000107019,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241824.final.bam:0.0000182121)100:0.0000244303,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241825.final.bam:0.0000576137)100:0.0000016358)100:0.0000017645)100:0.0000169073,(((((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241723.final.bam:0.0001216802,(((((((((((((((((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847037.final.bam:0.0005797329,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847068.final.bam:0.0004495186)100:0.0003286167,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847046.final.bam:0.0002852743)96:0.0001677985,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847066.final.bam:0.0011521255)90:0.0001691726,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847058.final.bam:0.0002645444)100:0.0003397354,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847070.final.bam:0.0002623829)100:0.0001243475,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847055.final.bam:0.0002949279)100:0.0001014453,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847041.final.bam:0.0003598054,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847063.final.bam:0.0007315850,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847067.final.bam:0.0008159788)100:0.0002142719,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847065.final.bam:0.0005265487)95:0.0000897405)88:0.0000539270)79:0.0000429552,(((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847039.final.bam:0.0003778475,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847040.final.bam:0.0003708969)100:0.0000791453,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847045.final.bam:0.0003398689)53:0.0000357310,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847049.final.bam:0.0002204449)43:0.0000237788)61:0.0000129426,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847042.final.bam:0.0002179958,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847044.final.bam:0.0002206922)80:0.0000495475)71:0.0000123901,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847053.final.bam:0.0001140797)79:0.0000075836,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847047.final.bam:0.0001344597,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847048.final.bam:0.0000893797)93:0.0000248051)86:0.0000130460,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847043.final.bam:0.0001637421,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847054.final.bam:0.0001608568)85:0.0000158189)98:0.0000089541,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847715.final.bam:0.0000138369)28:0.0000009378,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847703.final.bam:0.0000003998,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847705.final.bam:0.0000003998)34:0.0000003998)14:0.0000009453,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847704.final.bam:0.0000044492)31:0.0000010118,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847080.final.bam:0.0000229057)89:0.0000037538,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847057.final.bam:0.0000737097)98:0.0000140065)94:0.0000222655,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241770.final.bam:0.0000246979,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241799.final.bam:0.0000241514)100:0.0000079255,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241780.final.bam:0.0000295775)100:0.0000055314)90:0.0000303931,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241737.final.bam:0.0000560227)25:0.0000009556,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847077.final.bam:0.0000576398)32:0.0000093291,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241746.final.bam:0.0000697671,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241753.final.bam:0.0000681847,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241754.final.bam:0.0000581033,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241769.final.bam:0.0000708301)100:0.0000209803)99:0.0000158285,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241772.final.bam:0.0000106763,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241805.final.bam:0.0000153719,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847084.final.bam:0.0000244302)100:0.0000015704)100:0.0000305379,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847078.final.bam:0.0000425768)100:0.0000005029)100:0.0000165115)91:0.0000048469,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241802.final.bam:0.0000667401)81:0.0000008173)25:0.0000045297)24:0.0000060347,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847061.final.bam:0.0000592756,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847081.final.bam:0.0001331963)97:0.0000486605)80:0.0000005046)64:0.0000031617,(((((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241707.final.bam:0.0000138385,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241797.final.bam:0.0000153762,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241816.final.bam:0.0000093263,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241820.final.bam:0.0000106749)100:0.0000003998)99:0.0000011197)100:0.0000106748,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241724.final.bam:0.0000123009)100:0.0000259622,(((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241709.final.bam:0.0000182399,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241712.final.bam:0.0000244346)45:0.0000003998,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241721.final.bam:0.0000003998,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241722.final.bam:0.0000003998)100:0.0000153760)17:0.0000008538,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241714.final.bam:0.0000169137)100:0.0000013590)93:0.0000009592,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241801.final.bam:0.0000077707,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241818.final.bam:0.0000093258)100:0.0000288381)93:0.0000349776,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241715.final.bam:0.0000531884)93:0.0000288406)58:0.0000008722,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241708.final.bam:0.0004136158,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241813.final.bam:0.0002074809)82:0.0000744554,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847062.final.bam:0.0001196778,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847082.final.bam:0.0005539414)100:0.0005208090)81:0.0000749035)85:0.0000110179)85:0.0000058857,(((((((((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241755.final.bam:0.0000238329,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241756.final.bam:0.0001265646,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241768.final.bam:0.0000250948)98:0.0000057521)100:0.0000159324,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241757.final.bam:0.0000302819)100:0.0000303713,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241782.final.bam:0.0000226778,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241784.final.bam:0.0000111080)100:0.0000061412)100:0.0000133149,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241773.final.bam:0.0000289870,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241778.final.bam:0.0000077974)24:0.0000068725)25:0.0000075712,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241781.final.bam:0.0000208006)95:0.0000106121,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241779.final.bam:0.0000236219)98:0.0000114428,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241785.final.bam:0.0000232532)100:0.0000309235,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847083.final.bam:0.0001247848)100:0.0001100146,(((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241758.final.bam:0.0002367373,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241800.final.bam:0.0000993616)100:0.0000093092,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241771.final.bam:0.0000290520)100:0.0000289657,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241767.final.bam:0.0001272480)100:0.0000621999)85:0.0000030398)100:0.0000089026,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847060.final.bam:0.0001062742,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847088.final.bam:0.0001859595)100:0.0001393667)100:0.0000049917,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847059.final.bam:0.0000726291,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847085.final.bam:0.0001122880)100:0.0000621943)100:0.0000378396,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241812.final.bam:0.0000334559)96:0.0000015927,((((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241738.final.bam:0.0000395215,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241786.final.bam:0.0000106907)100:0.0000061245,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847087.final.bam:0.0000289973)100:0.0000012372,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241750.final.bam:0.0000728135,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241794.final.bam:0.0000153745)90:0.0000009524,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241809.final.bam:0.0000138371)88:0.0000008278)100:0.0000093217,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241749.final.bam:0.0000016143,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241761.final.bam:0.0000015283)100:0.0000093217,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241792.final.bam:0.0000274875)100:0.0000063194)100:0.0000032122)100:0.0000153740,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241725.final.bam:0.0000728144,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241807.final.bam:0.0000229064)98:0.0000122994,(((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241728.final.bam:0.0000153747,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241729.final.bam:0.0000032295)100:0.0000512764,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241736.final.bam:0.0001393573)97:0.0000202797,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241788.final.bam:0.0000182394)97:0.0000138372)96:0.0000016565)93:0.0000009835,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241717.final.bam:0.0000138370,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241719.final.bam:0.0000138369)93:0.0000011330,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241720.final.bam:0.0000196648)98:0.0000048936)93:0.0000008863,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241731.final.bam:0.0000045839,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241735.final.bam:0.0000758494)100:0.0000138374,(((((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241732.final.bam:0.0000016128,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241742.final.bam:0.0000047224)100:0.0000010828,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241733.final.bam:0.0000390594,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241734.final.bam:0.0000098059)100:0.0000425799)97:0.0000020963,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241744.final.bam:0.0000032297)97:0.0000064056,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241743.final.bam:0.0000077690,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241798.final.bam:0.0000122995)100:0.0000061284)97:0.0000061245,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241790.final.bam:0.0000229062)88:0.0000011971)97:0.0000122994)97:0.0000033153,(((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241726.final.bam:0.0000290006,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241764.final.bam:0.0000907876,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241777.final.bam:0.0000213925)91:0.0000015336)82:0.0000010356,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241795.final.bam:0.0000122994)84:0.0000018027,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241787.final.bam:0.0000169117)97:0.0000015785)95:0.0000015855,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241775.final.bam:0.0000106741,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241814.final.bam:0.0000138369)100:0.0000061234,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241811.final.bam:0.0000032513)100:0.0000032513)97:0.0000047221,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241783.final.bam:0.0000169117,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241789.final.bam:0.0000122994,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241791.final.bam:0.0000047224,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241793.final.bam:0.0000047224)28:0.0000003998)98:0.0000003998)21:0.0000008940,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241815.final.bam:0.0000106741)86:0.0000009379)74:0.0000010395,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241774.final.bam:0.0000127403,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241810.final.bam:0.0000146940)90:0.0000032293)88:0.0000004649,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241808.final.bam:0.0000061245)97:0.0000017980,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241776.final.bam:0.0000093228,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847086.final.bam:0.0000198519)100:0.0000018031)97:0.0000061244,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241806.final.bam:0.0000712973)100:0.0000077694)100:0.0000015052,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3330054.final.bam:0.0000003998);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -1241323.32306464
+Robinson-Foulds distance between ML tree and consensus tree: 28
+
+Branches with support >0.00000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3330052.final.bam
+|
+|  +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3330053.final.bam
++**| (100)
+|  |                                                                       +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672737.final.bam
+|  |                                                                    +**| (96)
+|  |                                                                    |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672752.final.bam
+|  |                                                                 +**| (100)
+|  |                                                                 |  |  +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672739.final.bam
+|  |                                                                 |  +**| (73)
+|  |                                                                 |     +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672758.final.bam
+|  |                                                              +**| (98)
+|  |                                                              |  +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672757.final.bam
+|  |                                                           +--| (100)
+|  |                                                           |  |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672738.final.bam
+|  |                                                           |  |     +--| (97)
+|  |                                                           |  |     |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672749.final.bam
+|  |                                                           |  |     |  +--| (100)
+|  |                                                           |  |     |     |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672755.final.bam
+|  |                                                           |  |     |     +--| (100)
+|  |                                                           |  |     |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672756.final.bam
+|  |                                                           |  |  +**| (96)
+|  |                                                           |  |  |  +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672753.final.bam
+|  |                                                           |  +**| (98)
+|  |                                                           |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672754.final.bam
+|  |                                                        +--| (100)
+|  |                                                        |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241739.final.bam
+|  |                                                     +**| (92)
+|  |                                                     |  |              +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241727.final.bam
+|  |                                                     |  |           +--| (100)
+|  |                                                     |  |           |  |     +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241745.final.bam
+|  |                                                     |  |           |  |  +--| (100)
+|  |                                                     |  |           |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241747.final.bam
+|  |                                                     |  |           |  +**| (79)
+|  |                                                     |  |           |     |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241748.final.bam
+|  |                                                     |  |           |     +**| (83)
+|  |                                                     |  |           |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241763.final.bam
+|  |                                                     |  |        +--| (97)
+|  |                                                     |  |        |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241741.final.bam
+|  |                                                     |  |     +--| (97)
+|  |                                                     |  |     |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241730.final.bam
+|  |                                                     |  |     |  |  +--| (100)
+|  |                                                     |  |     |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241803.final.bam
+|  |                                                     |  |     |  +--| (100)
+|  |                                                     |  |     |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241762.final.bam
+|  |                                                     |  |  +--| (100)
+|  |                                                     |  |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241740.final.bam
+|  |                                                     |  |  |  +--| (100)
+|  |                                                     |  |  |     |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241759.final.bam
+|  |                                                     |  |  |     +--| (100)
+|  |                                                     |  |  |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241760.final.bam
+|  |                                                     |  +--| (100)
+|  |                                                     |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847034.final.bam
+|  |                                                  +--| (94)
+|  |                                                  |  |     +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847050.final.bam
+|  |                                                  |  |  +--| (100)
+|  |                                                  |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847052.final.bam
+|  |                                                  |  +--| (100)
+|  |                                                  |     +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847051.final.bam
+|  |                                               +--| (100)
+|  |                                               |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241718.final.bam
+|  |                                            +--| (85)
+|  |                                            |  |                                                                             +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672740.final.bam
+|  |                                            |  |                                                                          +--| (100)
+|  |                                            |  |                                                                          |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672742.final.bam
+|  |                                            |  |                                                                          |  +--| (100)
+|  |                                            |  |                                                                          |     |                    +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672743.final.bam
+|  |                                            |  |                                                                          |     |                 +--| (100)
+|  |                                            |  |                                                                          |     |                 |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672748.final.bam
+|  |                                            |  |                                                                          |     |              +--| (100)
+|  |                                            |  |                                                                          |     |              |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672744.final.bam
+|  |                                            |  |                                                                          |     |           +--| (100)
+|  |                                            |  |                                                                          |     |           |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672747.final.bam
+|  |                                            |  |                                                                          |     |        +--| (100)
+|  |                                            |  |                                                                          |     |        |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672746.final.bam
+|  |                                            |  |                                                                          |     +--------| (100)
+|  |                                            |  |                                                                          |              +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672745.final.bam
+|  |                                            |  |                                                                       +--| (100)
+|  |                                            |  |                                                                       |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672751.final.bam
+|  |                                            |  |                                                                    +--| (100)
+|  |                                            |  |                                                                    |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672750.final.bam
+|  |                                            |  |                             +--------------------------------------| (100)
+|  |                                            |  |                             |                                      +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672741.final.bam
+|  |                                            |  |                          +--| (100)
+|  |                                            |  |                          |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847035.final.bam
+|  |                                            |  |                       +--| (99)
+|  |                                            |  |                       |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847036.final.bam
+|  |                                            |  |                    +--| (91)
+|  |                                            |  |                    |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847064.final.bam
+|  |                                            |  |                    |  +--| (94)
+|  |                                            |  |                    |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847069.final.bam
+|  |                                            |  |                 +--| (65)
+|  |                                            |  |                 |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6233936.final.bam
+|  |                                            |  |              +--| (65)
+|  |                                            |  |              |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847056.final.bam
+|  |                                            |  |           +**| (73)
+|  |                                            |  |           |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847038.final.bam
+|  |                                            |  |        +--| (80)
+|  |                                            |  |        |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241713.final.bam
+|  |                                            |  |        |  +--| (100)
+|  |                                            |  |        |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241821.final.bam
+|  |                                            |  |     +--| (64)
+|  |                                            |  |     |  |           +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241710.final.bam
+|  |                                            |  |     |  |        +--| (100)
+|  |                                            |  |     |  |        |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241817.final.bam
+|  |                                            |  |     |  |     +--| (100)
+|  |                                            |  |     |  |     |  |           +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241711.final.bam
+|  |                                            |  |     |  |     |  |        +--| (100)
+|  |                                            |  |     |  |     |  |        |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241823.final.bam
+|  |                                            |  |     |  |     |  |     +--| (100)
+|  |                                            |  |     |  |     |  |     |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241716.final.bam
+|  |                                            |  |     |  |     |  |     |  +--| (100)
+|  |                                            |  |     |  |     |  |     |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241796.final.bam
+|  |                                            |  |     |  |     |  |  +**| (64)
+|  |                                            |  |     |  |     |  |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241766.final.bam
+|  |                                            |  |     |  |     |  |  |  +--| (65)
+|  |                                            |  |     |  |     |  |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847079.final.bam
+|  |                                            |  |     |  |     |  +**| (66)
+|  |                                            |  |     |  |     |     |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241751.final.bam
+|  |                                            |  |     |  |     |     +--| (100)
+|  |                                            |  |     |  |     |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241752.final.bam
+|  |                                            |  |     |  |  +--| (100)
+|  |                                            |  |     |  |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241819.final.bam
+|  |                                            |  |     |  |  |  +**| (100)
+|  |                                            |  |     |  |  |     |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241822.final.bam
+|  |                                            |  |     |  |  |     |  +--| (100)
+|  |                                            |  |     |  |  |     |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241824.final.bam
+|  |                                            |  |     |  |  |     +**| (100)
+|  |                                            |  |     |  |  |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241825.final.bam
+|  |                                            |  |     |  +--| (80)
+|  |                                            |  |     |     |              +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241723.final.bam
+|  |                                            |  |     |     |           +--| (94)
+|  |                                            |  |     |     |           |  |                                                  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847037.final.bam
+|  |                                            |  |     |     |           |  |                                               +--| (100)
+|  |                                            |  |     |     |           |  |                                               |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847068.final.bam
+|  |                                            |  |     |     |           |  |                                            +--| (96)
+|  |                                            |  |     |     |           |  |                                            |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847046.final.bam
+|  |                                            |  |     |     |           |  |                                         +--| (90)
+|  |                                            |  |     |     |           |  |                                         |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847066.final.bam
+|  |                                            |  |     |     |           |  |                                      +--| (100)
+|  |                                            |  |     |     |           |  |                                      |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847058.final.bam
+|  |                                            |  |     |     |           |  |                                   +--| (100)
+|  |                                            |  |     |     |           |  |                                   |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847070.final.bam
+|  |                                            |  |     |     |           |  |                                +--| (100)
+|  |                                            |  |     |     |           |  |                                |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847055.final.bam
+|  |                                            |  |     |     |           |  |                             +--| (79)
+|  |                                            |  |     |     |           |  |                             |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847041.final.bam
+|  |                                            |  |     |     |           |  |                             |  +--| (88)
+|  |                                            |  |     |     |           |  |                             |     |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847063.final.bam
+|  |                                            |  |     |     |           |  |                             |     |  +--| (100)
+|  |                                            |  |     |     |           |  |                             |     |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847067.final.bam
+|  |                                            |  |     |     |           |  |                             |     +--| (95)
+|  |                                            |  |     |     |           |  |                             |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847065.final.bam
+|  |                                            |  |     |     |           |  |                          +--| (61)
+|  |                                            |  |     |     |           |  |                          |  |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847039.final.bam
+|  |                                            |  |     |     |           |  |                          |  |     +--| (100)
+|  |                                            |  |     |     |           |  |                          |  |     |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847040.final.bam
+|  |                                            |  |     |     |           |  |                          |  |  +--| (53)
+|  |                                            |  |     |     |           |  |                          |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847045.final.bam
+|  |                                            |  |     |     |           |  |                          |  +--| (43)
+|  |                                            |  |     |     |           |  |                          |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847049.final.bam
+|  |                                            |  |     |     |           |  |                       +--| (71)
+|  |                                            |  |     |     |           |  |                       |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847042.final.bam
+|  |                                            |  |     |     |           |  |                       |  +--| (80)
+|  |                                            |  |     |     |           |  |                       |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847044.final.bam
+|  |                                            |  |     |     |           |  |                    +--| (79)
+|  |                                            |  |     |     |           |  |                    |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847053.final.bam
+|  |                                            |  |     |     |           |  |                 +--| (86)
+|  |                                            |  |     |     |           |  |                 |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847047.final.bam
+|  |                                            |  |     |     |           |  |                 |  +--| (93)
+|  |                                            |  |     |     |           |  |                 |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847048.final.bam
+|  |                                            |  |     |     |           |  |              +--| (98)
+|  |                                            |  |     |     |           |  |              |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847043.final.bam
+|  |                                            |  |     |     |           |  |              |  +--| (85)
+|  |                                            |  |     |     |           |  |              |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847054.final.bam
+|  |                                            |  |     |     |           |  |           +**| (24)
+|  |                                            |  |     |     |           |  |           |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847080.final.bam
+|  |                                            |  |     |     |           |  |        +**| (17)
+|  |                                            |  |     |     |           |  |        |  |        +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847703.final.bam
+|  |                                            |  |     |     |           |  |        |  |     +**|
+|  |                                            |  |     |     |           |  |        |  |     |  +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847707.final.bam
+|  |                                            |  |     |     |           |  |        |  |  +**|
+|  |                                            |  |     |     |           |  |        |  |  |  +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847706.final.bam
+|  |                                            |  |     |     |           |  |        |  +**| (34)
+|  |                                            |  |     |     |           |  |        |     +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847705.final.bam
+|  |                                            |  |     |     |           |  |     +**| (38)
+|  |                                            |  |     |     |           |  |     |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847704.final.bam
+|  |                                            |  |     |     |           |  |  +--| (89)
+|  |                                            |  |     |     |           |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847715.final.bam
+|  |                                            |  |     |     |           |  +--| (98)
+|  |                                            |  |     |     |           |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847057.final.bam
+|  |                                            |  |     |     |        +--| (90)
+|  |                                            |  |     |     |        |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241770.final.bam
+|  |                                            |  |     |     |        |  |  +--| (100)
+|  |                                            |  |     |     |        |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241799.final.bam
+|  |                                            |  |     |     |        |  +--| (100)
+|  |                                            |  |     |     |        |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241780.final.bam
+|  |                                            |  |     |     |     +--| (64)
+|  |                                            |  |     |     |     |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847061.final.bam
+|  |                                            |  |     |     |     |  +--| (97)
+|  |                                            |  |     |     |     |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847081.final.bam
+|  |                                            |  |     |     |  +--| (69)
+|  |                                            |  |     |     |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241737.final.bam
+|  |                                            |  |     |     |  |  +**| (65)
+|  |                                            |  |     |     |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847077.final.bam
+|  |                                            |  |     |     +--| (61)
+|  |                                            |  |     |        |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241746.final.bam
+|  |                                            |  |     |        |  +--| (91)
+|  |                                            |  |     |        |  |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241753.final.bam
+|  |                                            |  |     |        |  |  |  +--| (99)
+|  |                                            |  |     |        |  |  |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241754.final.bam
+|  |                                            |  |     |        |  |  |  |  +--| (100)
+|  |                                            |  |     |        |  |  |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241769.final.bam
+|  |                                            |  |     |        |  |  +--| (100)
+|  |                                            |  |     |        |  |     |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241772.final.bam
+|  |                                            |  |     |        |  |     |  +--| (100)
+|  |                                            |  |     |        |  |     |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241805.final.bam
+|  |                                            |  |     |        |  |     |  |  +**| (100)
+|  |                                            |  |     |        |  |     |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847084.final.bam
+|  |                                            |  |     |        |  |     +**| (100)
+|  |                                            |  |     |        |  |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847078.final.bam
+|  |                                            |  |     |        +**| (81)
+|  |                                            |  |     |           +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241802.final.bam
+|  |                                            |  |  +**| (58)
+|  |                                            |  |  |  |              +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241707.final.bam
+|  |                                            |  |  |  |           +--| (100)
+|  |                                            |  |  |  |           |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241797.final.bam
+|  |                                            |  |  |  |           |  +**| (99)
+|  |                                            |  |  |  |           |     |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241816.final.bam
+|  |                                            |  |  |  |           |     +**| (100)
+|  |                                            |  |  |  |           |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241820.final.bam
+|  |                                            |  |  |  |        +--| (100)
+|  |                                            |  |  |  |        |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241724.final.bam
+|  |                                            |  |  |  |     +**| (93)
+|  |                                            |  |  |  |     |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241709.final.bam
+|  |                                            |  |  |  |     |  |  +**| (45)
+|  |                                            |  |  |  |     |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241712.final.bam
+|  |                                            |  |  |  |     |  +**| (100)
+|  |                                            |  |  |  |     |     |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241714.final.bam
+|  |                                            |  |  |  |     |     +**| (28)
+|  |                                            |  |  |  |     |        |  +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241721.final.bam
+|  |                                            |  |  |  |     |        +--| (100)
+|  |                                            |  |  |  |     |           +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241722.final.bam
+|  |                                            |  |  |  |  +--| (93)
+|  |                                            |  |  |  |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241801.final.bam
+|  |                                            |  |  |  |  |  +--| (100)
+|  |                                            |  |  |  |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241818.final.bam
+|  |                                            |  |  |  +--| (93)
+|  |                                            |  |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241715.final.bam
+|  |                                            |  +--| (85)
+|  |                                            |     |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241708.final.bam
+|  |                                            |     |  +--| (82)
+|  |                                            |     |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241813.final.bam
+|  |                                            |     +--| (81)
+|  |                                            |        |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847062.final.bam
+|  |                                            |        +--| (100)
+|  |                                            |           +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847082.final.bam
+|  |                                         +--| (100)
+|  |                                         |  |                             +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241755.final.bam
+|  |                                         |  |                          +--| (100)
+|  |                                         |  |                          |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241756.final.bam
+|  |                                         |  |                          |  +--| (98)
+|  |                                         |  |                          |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241768.final.bam
+|  |                                         |  |                       +--| (100)
+|  |                                         |  |                       |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241757.final.bam
+|  |                                         |  |                    +--| (100)
+|  |                                         |  |                    |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241782.final.bam
+|  |                                         |  |                    |  +--| (100)
+|  |                                         |  |                    |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241784.final.bam
+|  |                                         |  |                 +--| (74)
+|  |                                         |  |                 |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241781.final.bam
+|  |                                         |  |              +--| (73)
+|  |                                         |  |              |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241778.final.bam
+|  |                                         |  |           +--| (95)
+|  |                                         |  |           |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241773.final.bam
+|  |                                         |  |        +--| (98)
+|  |                                         |  |        |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241779.final.bam
+|  |                                         |  |     +--| (100)
+|  |                                         |  |     |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241785.final.bam
+|  |                                         |  |  +--| (100)
+|  |                                         |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847083.final.bam
+|  |                                         |  +--| (85)
+|  |                                         |     |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241758.final.bam
+|  |                                         |     |     +--| (100)
+|  |                                         |     |     |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241800.final.bam
+|  |                                         |     |  +--| (100)
+|  |                                         |     |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241771.final.bam
+|  |                                         |     +--| (100)
+|  |                                         |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241767.final.bam
+|  |                                      +--| (100)
+|  |                                      |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847060.final.bam
+|  |                                      |  +--| (100)
+|  |                                      |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847088.final.bam
+|  |                                   +--| (100)
+|  |                                   |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847059.final.bam
+|  |                                   |  +--| (100)
+|  |                                   |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847085.final.bam
+|  |                                +**| (96)
+|  |                                |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241812.final.bam
+|  |                             +--| (100)
+|  |                             |  |           +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241738.final.bam
+|  |                             |  |        +--| (100)
+|  |                             |  |        |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241786.final.bam
+|  |                             |  |     +**| (100)
+|  |                             |  |     |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847087.final.bam
+|  |                             |  |  +--| (100)
+|  |                             |  |  |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241750.final.bam
+|  |                             |  |  |  |  +**| (90)
+|  |                             |  |  |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241794.final.bam
+|  |                             |  |  |  +**| (88)
+|  |                             |  |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241809.final.bam
+|  |                             |  +--| (100)
+|  |                             |     |     +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241749.final.bam
+|  |                             |     |  +--| (100)
+|  |                             |     |  |  +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241761.final.bam
+|  |                             |     +--| (100)
+|  |                             |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241792.final.bam
+|  |                          +**| (93)
+|  |                          |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241725.final.bam
+|  |                          |  |  +--| (98)
+|  |                          |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241807.final.bam
+|  |                          |  +**| (96)
+|  |                          |     |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241728.final.bam
+|  |                          |     |     +--| (100)
+|  |                          |     |     |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241729.final.bam
+|  |                          |     |  +--| (97)
+|  |                          |     |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241736.final.bam
+|  |                          |     +--| (97)
+|  |                          |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241788.final.bam
+|  |                       +**| (93)
+|  |                       |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241717.final.bam
+|  |                       |  |  +**| (93)
+|  |                       |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241719.final.bam
+|  |                       |  +--| (98)
+|  |                       |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241720.final.bam
+|  |                    +--| (97)
+|  |                    |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241731.final.bam
+|  |                    |  |  +--| (100)
+|  |                    |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241735.final.bam
+|  |                    |  +--| (97)
+|  |                    |     |              +**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241732.final.bam
+|  |                    |     |           +**| (100)
+|  |                    |     |           |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241742.final.bam
+|  |                    |     |        +**| (97)
+|  |                    |     |        |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241733.final.bam
+|  |                    |     |        |  +--| (100)
+|  |                    |     |        |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241734.final.bam
+|  |                    |     |     +--| (97)
+|  |                    |     |     |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241744.final.bam
+|  |                    |     |  +--| (97)
+|  |                    |     |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241743.final.bam
+|  |                    |     |  |  +--| (100)
+|  |                    |     |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241798.final.bam
+|  |                    |     +**| (88)
+|  |                    |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241790.final.bam
+|  |                 +**| (95)
+|  |                 |  |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241726.final.bam
+|  |                 |  |     +**| (82)
+|  |                 |  |     |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241764.final.bam
+|  |                 |  |     |  +**| (91)
+|  |                 |  |     |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241777.final.bam
+|  |                 |  |  +**| (84)
+|  |                 |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241795.final.bam
+|  |                 |  +**| (97)
+|  |                 |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241787.final.bam
+|  |              +--| (97)
+|  |              |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241775.final.bam
+|  |              |  |  +--| (100)
+|  |              |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241814.final.bam
+|  |              |  +--| (100)
+|  |              |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241811.final.bam
+|  |           +**| (74)
+|  |           |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241783.final.bam
+|  |           |  |  +**| (77)
+|  |           |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241815.final.bam
+|  |           |  +**| (86)
+|  |           |     |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241789.final.bam
+|  |           |     |  +**| (62)
+|  |           |     |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241791.final.bam
+|  |           |     +**| (98)
+|  |           |        +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241793.final.bam
+|  |        +**| (88)
+|  |        |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241774.final.bam
+|  |        |  +--| (90)
+|  |        |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241810.final.bam
+|  |     +**| (97)
+|  |     |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241808.final.bam
+|  |  +--| (97)
+|  |  |  |  +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241776.final.bam
+|  |  |  +**| (100)
+|  |  |     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847086.final.bam
+|  +--| (100)
+|     +--/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241806.final.bam
+|
++**/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3330054.final.bam
+
+
+Consensus tree in newick format: 
+
+(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3330052.final.bam:0.0000138069,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3330053.final.bam:0.0000014756,((((((((((((((((((((((((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672737.final.bam:0.0000032105,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672752.final.bam:0.0000032105)96:0.0000008495,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672739.final.bam:0.0000008495,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672758.final.bam:0.0000008495)73:0.0000008495)100:0.0000015116,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672757.final.bam:0.0000008495)98:0.0000015116,(((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672738.final.bam:0.0000023601,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672749.final.bam:0.0000345028,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672755.final.bam:0.0001153254,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672756.final.bam:0.0001049714)100:0.0001089199)100:0.0000452072)97:0.0000084425,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672753.final.bam:0.0000008495)96:0.0000015118,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672754.final.bam:0.0000410254)98:0.0000008495)100:0.0000486267,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241739.final.bam:0.0000425487)100:0.0000032081,(((((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241727.final.bam:0.0002693833,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241745.final.bam:0.0000008495,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241747.final.bam:0.0000032103)100:0.0000047096,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241748.final.bam:0.0000047096,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241763.final.bam:0.0000108411)83:0.0000008495)79:0.0000008495)100:0.0000092924,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241741.final.bam:0.0000212650)97:0.0000031903,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241730.final.bam:0.0000121881,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241803.final.bam:0.0000379017)100:0.0000092925,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241762.final.bam:0.0000244016)100:0.0000047097)97:0.0000032108,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241740.final.bam:0.0000184108,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241759.final.bam:0.0000121881,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241760.final.bam:0.0000047096)100:0.0000092925)100:0.0000092925)100:0.0000047094,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847034.final.bam:0.0000410284)100:0.0000212662)92:0.0000011243,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847050.final.bam:0.0000015104,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847052.final.bam:0.0000047097)100:0.0000032109,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847051.final.bam:0.0000015105)100:0.0000448369)94:0.0000157601,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241718.final.bam:0.0001139144)100:0.0000145849,((((((((((((((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672740.final.bam:0.0031944089,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672742.final.bam:0.0012267317,(((((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672743.final.bam:0.0025207065,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672748.final.bam:0.0059681160)100:0.0015123842,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672744.final.bam:0.0032208366)100:0.0013602019,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672747.final.bam:0.0024810306)100:0.0029777570,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672746.final.bam:0.0018080355)100:0.0164550119,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672745.final.bam:0.0039528231)100:0.0717235801)100:0.0190777767)100:0.0050492241,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672751.final.bam:0.0057158479)100:0.0076031046,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672750.final.bam:0.0184443342)100:0.0134660927,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3672741.final.bam:0.0000009863)100:0.2860527050,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847035.final.bam:0.0035854117)100:0.0024371302,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847036.final.bam:0.0002638552)99:0.0002118687,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847064.final.bam:0.0006988179,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847069.final.bam:0.0000779927)94:0.0000568419)91:0.0000395448,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6233936.final.bam:0.0000035293)65:0.0000120641,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847056.final.bam:0.0000121912)65:0.0000060359,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847038.final.bam:0.0001015896)73:0.0000015698,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241713.final.bam:0.0000108371,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241821.final.bam:0.0000077405)100:0.0000547010)80:0.0000199405,((((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241710.final.bam:0.0000062736,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241817.final.bam:0.0000138045)100:0.0000092891,((((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241711.final.bam:0.0000212645,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241823.final.bam:0.0000153385)100:0.0000088630,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241716.final.bam:0.0000315960,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241796.final.bam:0.0000097012)100:0.0000062733)100:0.0000104075,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241766.final.bam:0.0000401826,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847079.final.bam:0.0002081939)65:0.0000108347)64:0.0000014963,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241751.final.bam:0.0000401284,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241752.final.bam:0.0000434369)100:0.0000259223)66:0.0000008745)100:0.0000304977,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241819.final.bam:0.0000516613,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241822.final.bam:0.0000108669,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241824.final.bam:0.0000183759)100:0.0000243982,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241825.final.bam:0.0000577158)100:0.0000014715)100:0.0000015707)100:0.0000168726,(((((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241723.final.bam:0.0001216677,(((((((((((((((((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847037.final.bam:0.0005796691,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847068.final.bam:0.0004495092)100:0.0003285189,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847046.final.bam:0.0002853087)96:0.0001679362,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847066.final.bam:0.0011521553)90:0.0001692905,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847058.final.bam:0.0002645153)100:0.0003397468,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847070.final.bam:0.0002623571)100:0.0001243316,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847055.final.bam:0.0002948886)100:0.0001014439,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847041.final.bam:0.0003598037,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847063.final.bam:0.0007315950,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847067.final.bam:0.0008157818)100:0.0002142615,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847065.final.bam:0.0005265792)95:0.0000897151)88:0.0000539034)79:0.0000429799,(((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847039.final.bam:0.0003778422,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847040.final.bam:0.0003708932)100:0.0000791131,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847045.final.bam:0.0003398684)53:0.0000356847,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847049.final.bam:0.0002204287)43:0.0000237684)61:0.0000127442,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847042.final.bam:0.0002179514,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847044.final.bam:0.0002207034)80:0.0000495116)71:0.0000125095,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847053.final.bam:0.0001139486)79:0.0000079273,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847047.final.bam:0.0001343521,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847048.final.bam:0.0000894173)93:0.0000248769)86:0.0000128450,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847043.final.bam:0.0001639183,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847054.final.bam:0.0001610452)85:0.0000160026)98:0.0000089340,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847080.final.bam:0.0000228730)24:0.0000008495,(((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847703.final.bam:0.0000000000,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847707.final.bam:0.0000000000):0.0000000000,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847706.final.bam:0.0000000000):0.0000008495,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847705.final.bam:0.0000008495)34:0.0000008495)17:0.0000008495,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847704.final.bam:0.0000048356)38:0.0000008495,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847715.final.bam:0.0000138048)89:0.0000038491,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847057.final.bam:0.0000736561)98:0.0000139650)94:0.0000217440,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241770.final.bam:0.0000247097,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241799.final.bam:0.0000240758)100:0.0000077409,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241780.final.bam:0.0000296855)100:0.0000061471)90:0.0000213943,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847061.final.bam:0.0000681069,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847081.final.bam:0.0001242210)97:0.0000481148)64:0.0000094281,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241737.final.bam:0.0000562198,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847077.final.bam:0.0000577395)65:0.0000008745)69:0.0000091658,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241746.final.bam:0.0000697338,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241753.final.bam:0.0000685418,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241754.final.bam:0.0000581996,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241769.final.bam:0.0000708026)100:0.0000206851)99:0.0000157886,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241772.final.bam:0.0000108374,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241805.final.bam:0.0000153387,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847084.final.bam:0.0000243981)100:0.0000015708)100:0.0000304977,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847078.final.bam:0.0000425445)100:0.0000010486)100:0.0000161030)91:0.0000048410,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241802.final.bam:0.0000667092)81:0.0000008495)61:0.0000048353)80:0.0000077408)64:0.0000032124,(((((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241707.final.bam:0.0000138084,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241797.final.bam:0.0000153427,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241816.final.bam:0.0000092931,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241820.final.bam:0.0000108419)100:0.0000015052)99:0.0000008495)100:0.0000108418,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241724.final.bam:0.0000121883)100:0.0000259274,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241709.final.bam:0.0000184113,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241712.final.bam:0.0000244019)45:0.0000008495,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241714.final.bam:0.0000168770,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241721.final.bam:0.0000008495,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241722.final.bam:0.0000008495)100:0.0000153426)28:0.0000008495)100:0.0000015046)93:0.0000008745,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241801.final.bam:0.0000077442,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241818.final.bam:0.0000092931)100:0.0000288134)93:0.0000350788,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241715.final.bam:0.0000533509)93:0.0000288164)58:0.0000010119,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241708.final.bam:0.0004136109,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241813.final.bam:0.0002074650)82:0.0000744383,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847062.final.bam:0.0001196537,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847082.final.bam:0.0005538814)100:0.0005209351)81:0.0000748771)85:0.0000109341)85:0.0000060694,((((((((((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241755.final.bam:0.0000237969,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241756.final.bam:0.0001265625,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241768.final.bam:0.0000250511)98:0.0000057254)100:0.0000166658,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241757.final.bam:0.0000293484)100:0.0000306017,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241782.final.bam:0.0000227111,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241784.final.bam:0.0000110049)100:0.0000067957)100:0.0000102161,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241781.final.bam:0.0000259263)74:0.0000033412,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241778.final.bam:0.0000136657)73:0.0000092921,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241773.final.bam:0.0000257827)95:0.0000023907,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241779.final.bam:0.0000269503)98:0.0000127313,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241785.final.bam:0.0000279279)100:0.0000264071,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847083.final.bam:0.0001247302)100:0.0001099365,(((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241758.final.bam:0.0002367169,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241800.final.bam:0.0000994679)100:0.0000092783,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241771.final.bam:0.0000290130)100:0.0000289288,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241767.final.bam:0.0001272204)100:0.0000620910)85:0.0000032048)100:0.0000090195,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847060.final.bam:0.0001061900,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847088.final.bam:0.0001858442)100:0.0001393368)100:0.0000052510,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847059.final.bam:0.0000725407,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847085.final.bam:0.0001122363)100:0.0000620856)100:0.0000377523,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241812.final.bam:0.0000335520)96:0.0000014735,((((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241738.final.bam:0.0000394854,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241786.final.bam:0.0000108624)100:0.0000062790,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847087.final.bam:0.0000289537)100:0.0000016464,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241750.final.bam:0.0000727823,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241794.final.bam:0.0000153413)90:0.0000008495,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241809.final.bam:0.0000138073)88:0.0000008495)100:0.0000092917,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241749.final.bam:0.0000014726,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241761.final.bam:0.0000014727)100:0.0000092919,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241792.final.bam:0.0000274508)100:0.0000062791)100:0.0000032090)100:0.0000153414,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241725.final.bam:0.0000727832,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241807.final.bam:0.0000228759)98:0.0000121874,(((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241728.final.bam:0.0000153416,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241729.final.bam:0.0000032083)100:0.0000512353,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241736.final.bam:0.0001393276)97:0.0000203728,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241788.final.bam:0.0000184098)97:0.0000138074)96:0.0000014738)93:0.0000008495,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241717.final.bam:0.0000138071,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241719.final.bam:0.0000138071)93:0.0000008495,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241720.final.bam:0.0000199122)98:0.0000047093)93:0.0000014211,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241731.final.bam:0.0000047087,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241735.final.bam:0.0000758167)100:0.0000138075,(((((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241732.final.bam:0.0000014746,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241742.final.bam:0.0000047093)100:0.0000012560,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241733.final.bam:0.0000390949,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241734.final.bam:0.0000097086)100:0.0000425473)97:0.0000019974,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241744.final.bam:0.0000032084)97:0.0000062789,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241743.final.bam:0.0000077431,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241798.final.bam:0.0000121876)100:0.0000062793)97:0.0000062791,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241790.final.bam:0.0000228755)88:0.0000008495)97:0.0000121876)97:0.0000032086,(((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241726.final.bam:0.0000289644,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241764.final.bam:0.0000909670,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241777.final.bam:0.0000212767)91:0.0000014769)82:0.0000008495,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241795.final.bam:0.0000121875)84:0.0000014747,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241787.final.bam:0.0000168753)97:0.0000014747)95:0.0000014751,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241775.final.bam:0.0000108402,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241814.final.bam:0.0000138071)100:0.0000062790,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241811.final.bam:0.0000032083)100:0.0000032083)97:0.0000047093,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241783.final.bam:0.0000168752,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241815.final.bam:0.0000108401)77:0.0000008495,((/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241789.final.bam:0.0000121875,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241791.final.bam:0.0000047092)62:0.0000008495,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241793.final.bam:0.0000047093)98:0.0000014752)86:0.0000008495)74:0.0000008495,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241774.final.bam:0.0000128564,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241810.final.bam:0.0000146551)90:0.0000032081)88:0.0000007124,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241808.final.bam:0.0000062790)97:0.0000014754,(/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241776.final.bam:0.0000092916,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR847086.final.bam:0.0000199438)100:0.0000014760)97:0.0000062789,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR6241806.final.bam:0.0000712666)100:0.0000077431)100:0.0000014756,/content/drive/MyDrive/KCL/Leprosy/results_3/bam/SRR3330054.final.bam:0.0000008495);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t /content/drive/MyDrive/KCL/Leprosy/results_3/tree/lep_phylogeny_final.treefile -m "GTR{1.01414,3.78764,0.235859,0.563599,3.8119}+F{0.240286,0.257291,0.258494,0.243929}+ASC" --length 250153
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s /content/drive/MyDrive/KCL/Leprosy/results_3/tree/alignment_fixed.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s /content/drive/MyDrive/KCL/Leprosy/results_3/tree/alignment_fixed.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Mon Mar  9 18:00:28 2026
+Total CPU time used: 3693.480193 seconds (1h:1m:33s)
+Total wall-clock time used: 474.9227824 seconds (0h:7m:54s)
+
